@@ -1,7 +1,7 @@
 # yii2-fias-extended
 
 Решил для удобства вшить wertex/yii2-fias в установленый yii2  
-wertex/yii2-fias это форк [ejen/yii2-fias](ejen/yii2-fias)
+wertex/yii2-fias это форк [ejen/yii2-fias](https://github.com/ejen/yii2-fias)
 
 # Установка
 ```
@@ -34,7 +34,6 @@ php yii migrate --migrationPath=@vendor/wertex/yii2-fias/console/migrations
 Кладем файлы в корень проекта в папку **data**.  
 Выполняем консольные команды по очереди:
 ```
-php yii fias/import-dbf data\ADDROB66.DBF --region=66
+php yii fias/import-dbf data\ADDROB66.DBF
 php yii fias/import-dbf data\HOUSE66.DBF
 ```
-Опция region является не обязательной и позволяет импортировать записи относящиеся только к конкретному региону(в случае импорта ADDROBJ.DBF)
