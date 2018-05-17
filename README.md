@@ -8,6 +8,10 @@ wertex/yii2-fias это форк [ejen/yii2-fias](ejen/yii2-fias)
 git clone https://github.com/wertex/yii2-fias-extended.git
 composer update
 ```
+
+# DBF
+Для работы с файлами DBF я использовал dll [отсюда](https://github.com/nufue/pecl-dbase-windows)
+
 # Применение миграций
 ```
 php yii migrate --migrationPath=@vendor/wertex/yii2-fias/console/migrations
